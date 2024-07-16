@@ -1,0 +1,13 @@
+.main {
+    text-align: center;
+    color: pink;
+    font-size: 32px;
+}
+
+.logo-pic {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 500px;
+    
+}
