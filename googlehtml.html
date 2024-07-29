@@ -1,17 +1,24 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Chrome Home Page</title>
     <link rel="stylesheet" href="googleStyles.css">
+    <link href="C:\Users\coral\OneDrive\שולחן העבודה\פיתוח אפליקציות\GoogleTask\chrome favicon.png" rel="icon" type="image/x-icon">
 </head>
 <body>
     <div class="logo">
         <img src="new-google-logo-png-0.png" alt="Google Logo" style="width: 280px; height: auto;">
     </div>
     <div class="search-bar">
-        <form id="searchForm" action="results.html" method="GET"></form>
-        <input type="text" placeholder="  Search Google or type a URL">
-            <img src="search.png" alt="Search Icon" style="width: 20px; height: auto;">
+        <form id="searchForm" action="Search results page.html" method="GET">
+            <img src="search bar icons.png" alt="Search bar icons" class="bar-icons">
+            <input type="text" name="q" placeholder="Search Google or type a URL" class="search-input">
+            <button type="submit" class="search-button">
+                <img src="search.png" alt="Search icon" class="search-icon">
+            </button>
+        </form>
     </div>
 </body>
 </html>
